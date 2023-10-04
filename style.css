@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Pixelify+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-title: #b31b21;
+    --color-link-menu: #111111;
+    --color-third: #ffa500;
+}
+
+body {
+    font-family: Josefin Sans, sans-serif;
+}
+
+.section-title {
+    color: var(--color-title);
+    font-family: Pixelify Sans, cursive;
+    font-weight: bolder;
+}
+
+.section-title:hover {
+    color: var(--color-title);
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+header {
+    background-color: var(--color-third);
+}
+
+.menu-opcao {
+    display: inline;
+}
+
+#menu .nav.nav-underline .nav-item .nav-link {
+    color: var(--color-link-menu);
+}
+
+#menu .nav.nav-underline .nav-item .nav-link:hover {
+    color: var(--color-title);
+}
+
+.carousel-item img {
+    height: 720px;
+}
+
+.img1, .img2, .img3 {
+    height: 420px;
+}
+
+#eventos {
+    background-color: var(--color-third);
+}
+
+#menu-cardapio .nav {
+    border: 1px solid var(--color-title);
+}
+
+
+#menu-cardapio .nav button {
+    border-radius: 0;
+}
+
+#menu-cardapio .nav-pills .nav-link.active {
+    background: var(--color-third);
+    color: var(--color-link-menu);
+}
+
+#fale-conosco {
+    background: var(--color-third);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    span {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-cardapio {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-cardapio {
+        font-size: 10px;
+    }
+}
